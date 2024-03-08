@@ -284,6 +284,8 @@ class ListView extends Component<Props, State> {
           onScrollToLower={this.handleScrollToLower}
           scrollWithAnimation
           onScroll={this.onScroll}
+          showScrollbar={false} 
+          enhanced
         >
           <View
             style={{ minHeight: "100%", overflowY: "hidden" }}
